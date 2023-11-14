@@ -8,8 +8,54 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* border: 1px solid red; */
+
+}
+header{
+    background-color: white;
 }
 
 h1{
     display: inline-block;
+}
+
+
+main{
+    background-color: #F6F8F9;
+    padding-top: 50px;
+}
+
+
+#container{
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    height: 1000px;
+}
+
+.buttons{
+    padding: 10px 70px;
+}
+
+input[type=button]{
+    padding:6px 8px;
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+}
+
+.blue-white{
+    background-color: #46ADF1;
+    color: white;
+    border:1px solid #46ADF1;
+}
+
+#container input[type=button]:last-child{
+    background-color: white;
+    color: lightgray;
+    border:0.1px solid lightgray;
+} 
+hr{
+    border: 1px solid #F6F8F9;
 }
