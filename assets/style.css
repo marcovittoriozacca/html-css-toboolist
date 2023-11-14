@@ -11,9 +11,11 @@ body{
     /* border: 1px solid red; */
 
 }
+
 header{
     background-color: white;
 }
+
 header img{
     padding: 10px 5px 10px 25px;
 }
@@ -22,20 +24,23 @@ h1{
     display: inline-block;
 }
 
-
+/* light gray part */
 main{
     background-color: #F6F8F9;
-    padding-top: 50px;
+    padding: 50px;
+    height: 100vh;
 }
 
-
+/* contains all the reminder elements */
 #container{
-    background-color: white;
-    width: 80%;
+    width: 70%;
+    height: 600px;
     margin: 0 auto;
     border-radius: 10px;
+    background-color: white;
 }
 
+/* first two buttons, separeted by an hr from the reminder part */
 .buttons, .sections{
     width: 80%;
     margin: 0 auto;
@@ -64,29 +69,28 @@ input[type=button]{
 hr{
     border: 1px solid #F6F8F9;
 }
-h3{
-    margin-bottom:10px;
-}
-h3::before{
-    content:"▾ ";
-}
 
-
-
-.label{
-    padding: 3px 6px;
-    font-size: 8px;
-    border-radius: 8px;
-}
-
+/* adds margin on top and bottom at the sections of the reminder */
 .reminder{
     margin-block: 25px;
 }
 
+/* add margin on top and bottom at the activities  */
 .reminder p{
     margin-bottom: 20px;
 }
 
+
+h3{
+    margin-bottom:10px;
+}
+/* add a pointer before the subtitle */
+h3::before{
+    content:"▾";
+    margin-right: 5px;
+}
+
+/* markers green and red */
 .mark{
     font-size: 0.7em;
     border-radius: 50%;
@@ -102,4 +106,32 @@ h3::before{
     color: red;
     border:1px solid red;
 }
+
+
+/* labels */
+.label{
+    padding: 6px 12px;
+    font-size: 8px;
+    border-radius: 10px;
+    color: white;
+}
+
+.goals{
+    background-color: #9C72E4;
+}
+.recruiting{
+    background-color: #64C0A9;
+}
+.mobile{
+    background-color: orange;
+}
+.website{
+    background-color: #D763A1;
+}
+.sales{
+    background-color: #B0C925;
+}
+
+
+
 
