@@ -76,8 +76,11 @@ hr{
     margin-block: 25px;
 }
 
+ul{
+    list-style: none;
+}
 /* add margin on top and bottom at the activities  */
-.reminder p{
+.reminder ul li{
     margin-bottom: 20px;
 }
 
@@ -94,7 +97,6 @@ h3::before{
 h3:hover{
     cursor: pointer;
 }
-
 /* markers green and red */
 .mark{
     font-size: 0.7em;
@@ -110,11 +112,17 @@ h3:hover{
     color: green;
     border:1px solid green;
 }
+.check::after{
+    content: "\2713";
+}
+
 .x{
     color: red;
     border:1px solid red;
 }
-
+.x::after{
+    content: "\2715";
+}
 
 /* labels */
 .label{
